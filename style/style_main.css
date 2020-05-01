@@ -15,10 +15,11 @@ html {
 /* body {
   background-image: url("https://source.unsplash.com/collection/190727/1600x900");
 } */
-
 .bg-image {
   /* The image used */
-  background-image: url("https://source.unsplash.com/random");
+  /* background-image: url("https://source.unsplash.com/random"); */
+
+  background-image: url("https://www.desktopbackground.org/p/2012/11/06/479822_download-iceland-blue-lagoon-wallpapers-desktop_1920x1080_h.jpg");
 
   /* Add the blur effect */
   filter: blur(8px);
@@ -58,6 +59,27 @@ html {
 
 :hover .nav-link {
   color: black;
+}
+
+.btn {
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: #413838 !important;
+}
+
+.btn a {
+  color: #000;
+  font-weight: 600;
+  font-size: xx-large;
+}
+
+.btn :hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+:hover .button {
+  color: cornsilk !important;
 }
 
 .footer {
